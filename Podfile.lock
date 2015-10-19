@@ -1,0 +1,10 @@
+PODS:
+  - MSCollectionViewCalendarLayout (0.1.5)
+
+DEPENDENCIES:
+  - MSCollectionViewCalendarLayout
+
+SPEC CHECKSUMS:
+  MSCollectionViewCalendarLayout: 9c52894930d6b712951f18873618fc32c00cd4fa
+
+COCOAPODS: 0.39.0

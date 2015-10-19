@@ -6,9 +6,36 @@
 //  Copyright © 2015 Nick. All rights reserved.
 //
 
+
+var dayTest = Day()
+
+
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource {
+    
+    
+    
+    
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 8
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        var cell = UITableViewCell()
+        
+        
+        //let(displayEvent) = Sunday.Events[indexPath.row]
+        
+        cell.textLabel!.text = "Hello"
+        
+        return cell
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

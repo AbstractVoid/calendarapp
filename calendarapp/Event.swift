@@ -14,7 +14,12 @@ class Event : NSObject{
      var title: String?
 
      var start: NSDate?
+    //var start: String?
     
     var day: String?
+    
+    var dayNum: Int?
+    
+    
 
 }

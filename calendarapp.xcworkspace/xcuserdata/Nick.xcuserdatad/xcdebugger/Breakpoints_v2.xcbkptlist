@@ -31,8 +31,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "20"
             endingLineNumber = "20"
-            landmarkName = "sort(_:)"
-            landmarkType = "5">
+            landmarkName = "Day"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -55,92 +55,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "calendarapp/Day.swift"
-            timestampString = "466984550.947105"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "sort(_:)"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "calendarapp.Day.sort (calendarapp.Day)(Swift.Array&lt;calendarapp.Event&gt;) -&gt; ()"
-                  moduleName = "calendarapp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Nick/Desktop/calendarapp/calendarapp/Day.swift"
-                  timestampString = "466986684.452227"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "56">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "calendarapp.Day.(sort (calendarapp.Day) -&gt; (Swift.Array&lt;calendarapp.Event&gt;) -&gt; ()).(closure #1)"
-                  moduleName = "calendarapp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Nick/Desktop/calendarapp/calendarapp/Day.swift"
-                  timestampString = "466986684.452496"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "26">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "calendarapp/ViewController.swift"
-            timestampString = "466984811.513702"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "calendarapp/ViewController.swift"
-            timestampString = "466984811.513702"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "calendarapp/ViewController2.swift"
-            timestampString = "466984550.947105"
+            timestampString = "467515196.387677"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
@@ -168,7 +88,7 @@
                   moduleName = "calendarapp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Nick/Desktop/calendarapp/calendarapp/ViewController2.swift"
-                  timestampString = "466986684.466711"
+                  timestampString = "467521786.513368"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -183,7 +103,7 @@
                   moduleName = "calendarapp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Nick/Desktop/calendarapp/calendarapp/ViewController2.swift"
-                  timestampString = "466986684.466967"
+                  timestampString = "467521786.513608"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -198,7 +118,7 @@
                   moduleName = "calendarapp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Nick/Desktop/calendarapp/calendarapp/ViewController2.swift"
-                  timestampString = "466986684.46725"
+                  timestampString = "467521786.513857"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -215,11 +135,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "calendarapp/ViewController2.swift"
-            timestampString = "466984550.947105"
+            timestampString = "467521785.481794"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "Submit(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -231,13 +151,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "calendarapp/Event.swift"
-            timestampString = "466989294.797196"
+            timestampString = "467521785.481794"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "Event"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calendarapp/ViewController2.swift"
+            timestampString = "467521370.093159"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "Submit(_:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

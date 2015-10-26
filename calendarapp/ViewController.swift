@@ -14,6 +14,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource {
     
+    var timeFormatter = NSDateFormatter()
     
     
     
@@ -23,18 +24,32 @@ class ViewController: UIViewController, UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 8
+        return dayTest.Events.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = UITableViewCell()
+        timeFormatter.timeStyle = NSDateFormatterStyle.ShortStyle
         
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
         
-        //let(displayEvent) = Sunday.Events[indexPath.row]
-        
-        cell.textLabel!.text = "Hello"
-        
+        // Contents
+        cell.textLabel?.text = dayTest.Events[indexPath.row].title
+        // description
+        cell.detailTextLabel?.text = timeFormatter.stringFromDate(dayTest.Events[indexPath.row].start!) + " " +  dayTest.Events[indexPath.row].day!
         return cell
+    }
+    
+    // Slide to delete a cell
+    
+    func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        return true
+    }
+    
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        if (editingStyle == UITableViewCellEditingStyle.Delete) {
+            dayTest.Events.removeAtIndex(indexPath.row)
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
+        }
     }
 
     override func viewDidLoad() {

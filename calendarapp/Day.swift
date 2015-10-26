@@ -17,9 +17,7 @@ class Day: NSObject{
     
 
     
-    func sort(var toSort: [Event]){
-     toSort.sortInPlace({ $0.start!.compare($1.start!) == NSComparisonResult.OrderedAscending })
-    }
+    
 }
 
 

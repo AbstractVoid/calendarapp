@@ -60,9 +60,9 @@
                                 </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Schedule" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="114-Cg-Pwd">
-                                <rect key="frame" x="20" y="28" width="112" height="21"/>
+                                <rect key="frame" x="20" y="28" width="144" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="112" id="1d2-Xo-WTV"/>
+                                    <constraint firstAttribute="width" constant="144" id="1d2-Xo-WTV"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>

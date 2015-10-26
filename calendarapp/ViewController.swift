@@ -35,7 +35,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         // Contents
         cell.textLabel?.text = dayTest.Events[indexPath.row].title
         // description
-        cell.detailTextLabel?.text = timeFormatter.stringFromDate(dayTest.Events[indexPath.row].start!) + " " +  dayTest.Events[indexPath.row].day!
+        cell.detailTextLabel?.text = dayTest.Events[indexPath.row].day! + " " +  timeFormatter.stringFromDate(dayTest.Events[indexPath.row].start!)
         return cell
     }
     
